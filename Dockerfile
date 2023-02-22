@@ -1,4 +1,14 @@
-FROM node:lts-alpine3.17
+FROM node:alpine
 WORKDIR /myapp
-COPY build/* /myapp/
+
+COPY package*.json /
+
+COPY . .
+
+RUN npm i
+RUN npm build
+
+EXPOSE 3000
+
+
 CMD ["npm", "start"]
