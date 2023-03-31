@@ -1,7 +1,8 @@
 @Library("mysharedlibrary")_
 
 reactJsPipeline( 
-            applicationName: "Hello World",
+            applicationName: "reactapp",
             containerImageName: "reactapplication",
-            registryUserName: "moqaddas"
+            registryUserName: "moqaddas",
+            apprepo: "https://github.com/MDMOQADDAS/reactJsPipeline.git"
 )
