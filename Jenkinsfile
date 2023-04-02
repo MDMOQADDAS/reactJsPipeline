@@ -4,5 +4,7 @@ reactJsPipeline(
             applicationName: "reactapp",
             containerImageName: "reactapplication",
             registryUserName: "moqaddas",
-            apprepo: "https://github.com/MDMOQADDAS/reactJsPipeline.git"
+            apprepo: "https://github.com/MDMOQADDAS/reactJsPipeline.git",
+            port: 80
+            
 )
